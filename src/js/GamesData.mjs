@@ -52,7 +52,7 @@ function insertData(data) {
             <img src="${image}" alt="${name}" loading="lazy" width="400" height="200">
           </div>   
           <div class="description-container">
-            <h2 id="game-title">${name}</h2>                   
+            <h3 id="game-title">${name}</h3>                   
           </div>   
           <div class="description-content">
             <p><span>ESRB:</span> ${formatEsrbRating(game.esrb_rating)}</p>
